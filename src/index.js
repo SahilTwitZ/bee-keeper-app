@@ -1,3 +1,4 @@
+//PART1 :
 //1. Create a new React app.
 //2. Create a App.jsx component.
 //3. Create a Header.jsx component that renders a <header> element
@@ -11,14 +12,16 @@
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
 
+
+//PART 2 : 
+//Challenge. Render all the notes inside notes.js as a seperate Note
+//component.
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App";
+import notes from "./notes";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(
-    <div>
-        <App/>
-    </div>
-);
+root.render(<App/>);
